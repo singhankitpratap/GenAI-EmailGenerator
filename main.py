@@ -33,5 +33,5 @@ def generate_cold_email_app(language_model, portfolio_manager, text_cleaner):
 if __name__ == "__main__":
     workflow_model = Workflow()
     portfolio_manager = PortfolioManager()
-    st.set_page_config(layout="wide", page_title="Email Generator", page_icon="📧")
+    st.set_page_config(layout="wide", page_title="Email Generator")
     generate_cold_email_app(workflow_model, portfolio_manager, clean_text_content)

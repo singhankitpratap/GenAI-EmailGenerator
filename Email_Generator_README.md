@@ -34,6 +34,3 @@ The **Email Generator** is a Streamlit-based **GenAI application leveraging LLM 
 - `langchain`
 - `chromadb`
 - `pandas`
-
-## License
-Licensed under the MIT License.

@@ -6,7 +6,7 @@ from portfolio_manager import PortfolioManager
 from utils import clean_text_content
 
 
-def generate_cold_email_app(language_model, portfolio_manager, text_cleaner):
+def generate_email_app(language_model, portfolio_manager, text_cleaner):
     st.title("Email Generator")
     url_input = st.text_input(
         "Enter a URL:",
